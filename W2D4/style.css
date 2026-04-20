@@ -180,7 +180,7 @@ section {
 .article-footer-button {
     border-radius: 30px;
     background-color: rgb(240, 240, 240);
-    border:none;
+    border: none;
     color: gray;
 }
 
@@ -193,6 +193,7 @@ section {
     flex-direction: column;
     padding-left: 5%;
 }
+
 .socialbar {
     display: flex;
     flex-flow: column wrap;
@@ -217,6 +218,7 @@ section {
     height: auto;
     align-self: center;
 }
+
 .plus {
     color: gray;
     font-size: 150%;
@@ -232,6 +234,7 @@ section {
     border-bottom: 1px solid rgb(228, 228, 228);
     padding-bottom: 10%;
 }
+
 .social-text {
     font-size: normal;
     color: black;
@@ -267,6 +270,7 @@ div.social-container a {
     margin-top: 10%;
     width: 400px;
 }
+
 .sidebar-title {
     font-size: 11pt;
     font-weight: 550;
@@ -281,16 +285,17 @@ div.social-container a {
 }
 
 .btn-topic {
-border-radius: 20px;
-background-color: rgb(243, 243, 243);
-border: none;
-width: max-content;
-height: 30px;
-margin: 1% 1% 1% 1% ;
-padding: 5% 5% 5% 5%;;
-font-size: 10pt;
-display: flex;
-align-items: center;
+    border-radius: 20px;
+    background-color: rgb(243, 243, 243);
+    border: none;
+    width: max-content;
+    height: 30px;
+    margin: 1% 1% 1% 1%;
+    padding: 5% 5% 5% 5%;
+    ;
+    font-size: 10pt;
+    display: flex;
+    align-items: center;
 }
 
 .card {
@@ -306,10 +311,12 @@ align-items: center;
     height: 50px;
     border-radius: 50px;
 }
+
 .card-name {
     margin-top: 3%;
     align-self: flex-start;
 }
+
 .card-text {
     width: 200px;
     height: 50px;
@@ -318,6 +325,7 @@ align-items: center;
     margin-left: 2%;
     align-self: flex-start;
 }
+
 .card-p {
     font-size: small;
     width: 210px;
@@ -344,6 +352,7 @@ align-items: center;
     height: max-content;
     align-content: space-between;
 }
+
 .saved-header {
     display: flex;
     flex-wrap: wrap;
@@ -354,22 +363,24 @@ align-items: center;
     margin-bottom: -6%;
     color: gray;
     font-weight: normal;
-    font-size: small;
+    font-size: 9pt;
 }
+
 .saved-title {
     width: 350px;
-    font-size: 13pt;
+    font-size: 11pt;
     color: black;
     margin-bottom: -2%;
 }
 
 .card-saved-footer {
-    font-size: 11pt;
+    font-size: 10pt;
     color: gray;
     display: flex;
     align-items: center;
     width: 300px;
     margin-top: 1.5%;
+
 }
 
 .saved-footer-text {
@@ -379,9 +390,11 @@ align-items: center;
 .see-all {
     text-decoration: none;
     margin-top: 5%;
-    color:green;
+    color: green;
     font-weight: lighter;
+    font-size: 10pt;
 }
+
 footer {
     margin-top: 15%;
 }
@@ -392,9 +405,10 @@ footer {
     width: 250px;
     height: auto;
 }
+
 .a-contact {
     text-decoration: none;
-    color:rgb(116, 116, 116);
+    color: rgb(116, 116, 116);
     font-weight: 300;
     width: 50px;
     height: 30px;
